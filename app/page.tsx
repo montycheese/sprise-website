@@ -11,9 +11,12 @@ export default function Home() {
           alt="Sprise cube lg"
           src="../static/img/sprise-cube-lg@2x.png"
         />
-        <button className="inline-flex items-center justify-center gap-[10px] px-[12px] py-[8px] relative flex-[0_0_auto] border border-solid border-lavender [background:none] mt-[-1.00px] [font-family:'Space_Grotesk',Helvetica] font-normal text-midnight text-[18px] tracking-[0] leading-[normal]">
-          sup@sprise.co
-        </button>
+        <a
+          className="inline-flex items-center justify-center gap-[10px] px-[12px] py-[8px] relative flex-[0_0_auto] border border-solid border-lavender [background:none] [font-family:'Space_Grotesk',Helvetica] font-normal text-midnight hover:border-volt hover:text-volt text-[18px] tracking-[0] leading-[normal]"
+          href="mailto:&#x73;&#x75;&#x70;&#x40;&#x73;&#x70;&#x72;&#x69;&#x73;&#x65;&#x2e;&#x63;&#x6f;"
+        >
+          &#x73;&#x75;&#x70;&#x40;&#x73;&#x70;&#x72;&#x69;&#x73;&#x65;&#x2e;&#x63;&#x6f;
+        </a>
       </div>
       <div className="flex flex-col items-start gap-[64px] pt-[48px] pb-[32px] px-[104px] relative self-stretch w-full flex-[0_0_auto]">
         <p className="relative self-stretch mt-[-1.00px] [font-family:'Fraunces',Helvetica] font-normal text-midnight text-[96px] tracking-[0] leading-[112px]">
@@ -154,17 +157,13 @@ export default function Home() {
           <div className="flex items-start gap-[32px] relative self-stretch w-full flex-[0_0_auto]">
             <div className="flex flex-col items-start gap-[12px] p-[24px] relative flex-1 self-stretch grow border border-solid border-lavender">
               <div className="flex items-start justify-between relative self-stretch w-full flex-[0_0_auto]">
-                <p className="relative w-fit mt-[-1.00px] [font-family:'Space_Grotesk',Helvetica] font-bold text-midnight text-[32px] tracking-[0] leading-[normal]">
-                  <a href="https://pally.gg?ref=sprise" rel="noopener noreferrer" target="_blank">
-                    <span className="[font-family:'Space_Grotesk',Helvetica] font-bold text-[#302556] text-[32px] tracking-[0]">
+                  <a href="https://pally.gg?ref=sprise" target="_blank">
+                    <h3 className="hover:after:content-['↗︎'] hover:after:ml-2 hover:text-dark-lavender [font-family:'Space_Grotesk',Helvetica] font-bold text-[#302556] text-[32px] tracking-[0]">
                       Pally.gg
-                    </span>
+                    </h3>
                   </a>
-                  <span className="[font-family:'Space_Grotesk',Helvetica] font-bold text-[#302556] text-[32px] tracking-[0]">
-                    &nbsp;
-                  </span>
-                </p>
-                <Label className="!flex-[0_0_auto]" />
+                  
+                  <Label className="!flex-[0_0_auto]" />
               </div>
               <div className="inline-flex items-start pt-0 pb-[8px] px-0 relative flex-[0_0_auto]">
                 <div className="relative w-fit mt-[-1.00px] [font-family:'Space_Grotesk',Helvetica] font-normal text-purple text-[18px] tracking-[0] leading-[normal]">
@@ -178,13 +177,10 @@ export default function Home() {
             </div>
             <div className="flex flex-col items-start gap-[12px] p-[24px] relative flex-1 self-stretch grow border border-solid border-lavender">
               <div className="flex items-start justify-between relative self-stretch w-full flex-[0_0_auto]">
-                <a
-                  className="relative w-fit mt-[-1.00px] [font-family:'Space_Grotesk',Helvetica] font-bold text-midnight text-[32px] tracking-[0] leading-[normal]"
-                  href="https://www.clubcpg.com/w?ref=sprise"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  W by Club CPG
+                <a href="https://www.clubcpg.com/w?ref=sprise" target="_blank">
+                  <h3 className="hover:after:content-['↗︎'] hover:after:ml-2 hover:text-dark-lavender [font-family:'Space_Grotesk',Helvetica] font-bold text-[#302556] text-[32px] tracking-[0]">
+                    W by Club CPG
+                  </h3>
                 </a>
                 <Label className="!flex-[0_0_auto]" />
               </div>
@@ -201,13 +197,10 @@ export default function Home() {
           <div className="flex items-start gap-[32px] relative self-stretch w-full flex-[0_0_auto]">
             <div className="flex flex-col items-start gap-[12px] p-[24px] relative flex-1 self-stretch grow border border-solid border-lavender">
               <div className="flex items-start justify-between relative self-stretch w-full flex-[0_0_auto]">
-                <a
-                  className="relative w-fit mt-[-1.00px] [font-family:'Space_Grotesk',Helvetica] font-bold text-midnight text-[32px] tracking-[0] leading-[normal]"
-                  href="https://mybff.com?ref=sprise"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  BFF
+                <a href="https://mybff.com?ref=sprise" target="_blank">
+                  <h3 className="hover:after:content-['↗︎'] hover:after:ml-2 hover:text-dark-lavender [font-family:'Space_Grotesk',Helvetica] font-bold text-[#302556] text-[32px] tracking-[0]">
+                    BFF
+                  </h3>
                 </a>
                 <Label className="!flex-[0_0_auto]" />
               </div>
@@ -223,13 +216,10 @@ export default function Home() {
             </div>
             <div className="flex flex-col items-start gap-[12px] p-[24px] relative flex-1 self-stretch grow border border-solid border-lavender">
               <div className="flex items-start gap-[12px] relative self-stretch w-full flex-[0_0_auto]">
-                <a
-                  className="relative w-fit mt-[-1.00px] [font-family:'Space_Grotesk',Helvetica] font-bold text-midnight text-[32px] tracking-[0] leading-[normal]"
-                  href="https://afropolitan.io?ref=sprise"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  Afropolitan
+                <a href="https://afropolitan.io?ref=sprise" target="_blank">
+                  <h3 className="hover:after:content-['↗︎'] hover:after:ml-2 hover:text-dark-lavender [font-family:'Space_Grotesk',Helvetica] font-bold text-[#302556] text-[32px] tracking-[0]">
+                    Afropolitan
+                  </h3>
                 </a>
               </div>
               <div className="inline-flex items-start pt-0 pb-[8px] px-0 relative flex-[0_0_auto]">
@@ -247,15 +237,15 @@ export default function Home() {
           <span className="[font-family:'Space_Grotesk',Helvetica] font-normal text-[#302556] text-[24px] tracking-[0]">
             Other clients we’ve worked with include{" "}
           </span>
-          <a href="https://yestheory.com/?ref=sprise" rel="noopener noreferrer" target="_blank">
-            <span className="underline">Yes Theory</span>
+          <a href="https://yestheory.com/?ref=sprise" target="_blank">
+            <span className="underline hover:text-dark-lavender">Yes Theory</span>
           </a>
           <span className="[font-family:'Space_Grotesk',Helvetica] font-normal text-[#302556] text-[24px] tracking-[0]">
             {" "}
             and{" "}
           </span>
-          <a href="https://www.offbeat.xyz/?ref=sprise" rel="noopener noreferrer" target="_blank">
-            <span className="underline">Offbeat</span>
+          <a href="https://www.offbeat.xyz/?ref=sprise" target="_blank">
+            <span className="underline hover:text-dark-lavender">Offbeat</span>
           </a>
           <span className="[font-family:'Space_Grotesk',Helvetica] font-normal text-[#302556] text-[24px] tracking-[0]">
             .
@@ -295,9 +285,12 @@ export default function Home() {
             </p>
           </div>
           <div className="inline-flex items-center justify-center gap-[10px] px-[16px] py-[12px] border border-solid border-lavender relative flex-[0_0_auto]">
-            <div className="relative w-fit mt-[-1.00px] [font-family:'Space_Grotesk',Helvetica] font-normal text-midnight text-[24px] tracking-[0] leading-[normal]">
-              sup@sprise.co
-            </div>
+            <a
+              className="relative w-fit mt-[-1.00px] [font-family:'Space_Grotesk',Helvetica] font-normal text-midnight hover:text-dark-lavender text-[24px] tracking-[0] leading-[normal]"
+              href="mailto:&#x73;&#x75;&#x70;&#x40;&#x73;&#x70;&#x72;&#x69;&#x73;&#x65;&#x2e;&#x63;&#x6f;"
+            >
+              &#x73;&#x75;&#x70;&#x40;&#x73;&#x70;&#x72;&#x69;&#x73;&#x65;&#x2e;&#x63;&#x6f;
+            </a>
           </div>
         </div>
       </div>
@@ -318,9 +311,8 @@ export default function Home() {
               </div>
             </div>
             <a
-              className="relative self-stretch [font-family:'Space_Grotesk',Helvetica] font-normal text-purple text-[18px] tracking-[0] leading-[normal] underline"
+              className="relative self-stretch [font-family:'Space_Grotesk',Helvetica] font-normal text-purple hover:text-dark-lavender text-[18px] tracking-[0] leading-[normal] underline"
               href="https://twitter.com/montana_wong"
-              rel="noopener noreferrer"
               target="_blank"
             >
               @Montana_Wong
@@ -337,9 +329,8 @@ export default function Home() {
               </div>
             </div>
             <a
-              className="relative self-stretch [font-family:'Space_Grotesk',Helvetica] font-normal text-purple text-[18px] tracking-[0] leading-[normal] underline"
+              className="relative self-stretch [font-family:'Space_Grotesk',Helvetica] font-normal text-purple hover:text-dark-lavender text-[18px] tracking-[0] leading-[normal] underline"
               href="https://twitter.com/boodtama"
-              rel="noopener noreferrer"
               target="_blank"
             >
               @boodtama

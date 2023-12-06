@@ -22,7 +22,7 @@ const config: Config = {
         'peach': 'rgba(255, 206, 179, 1)',
         'purple': 'rgba(66, 46, 137, 1)',
         'volt': 'rgba(227, 255, 23, 1)',
-      },
+      }
     },
   },
   plugins: [],
