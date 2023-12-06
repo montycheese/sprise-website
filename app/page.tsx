@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import { Arrow } from "../src/components/Arrow";
 import { Label } from "../src/components/Label";
 
 export default function Home() {
