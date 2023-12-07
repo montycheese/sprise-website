@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-cover bg-fixed lg:bg-sprise-gradient-desktop bg-sprise-gradient-mobile">{children}</body>
+      <body className="p-safe bg-cover bg-fixed lg:bg-sprise-gradient-desktop bg-sprise-gradient-mobile">{children}</body>
     </html>
   )
 }
