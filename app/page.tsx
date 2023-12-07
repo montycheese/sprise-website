@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Home() {
   return (
     /* Wrapper */
-    <div className="flex flex-col justify-center bg-cover bg-fixed bg-sprise-gradient">
+    <div className="flex flex-col justify-center bg-cover bg-fixed lg:bg-sprise-gradient-desktop bg-sprise-gradient-mobile">
       
       {/* Nav */}
       <div className="flex items-center justify-between xl:px-[6.5rem] lg:px-16 md:px-8 px-4 lg:py-6 md:py-4 py-3 max-w-screen-2xl w-full">

@@ -9,10 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'sprise-gradient': "url('~/static/img/sprise-gradient-desktop@2x.png')",
-        'gradient-radial': "radial-gradient(var(--tw-gradient-stops))",
-        'gradient-conic':
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'sprise-gradient-desktop': "url('~/static/img/sprise-gradient-desktop@2x.png')",
+        'sprise-gradient-mobile': "url('~/static/img/sprise-gradient-mobile@2x.png')",
       },
       colors: {
         'cream': 'rgba(255, 236, 230, 1)',
