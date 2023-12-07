@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import { Label } from "../src/components/Label";
 
 export default function Home() {
   return (
@@ -9,12 +8,12 @@ export default function Home() {
       {/* Nav */}
       <div className="flex items-center justify-between xl:px-[6.5rem] lg:px-16 md:px-8 px-4 lg:py-6 md:py-4 py-3 max-w-screen-2xl w-full">
         <img
-          className="relative lg:w-[3.75em] lg:h-[3.75em] md:w-12 md:h-12 w-10 h-10 object-cover"
+          className="lg:w-[3.75em] lg:h-[3.75em] md:w-12 md:h-12 w-10 h-10 object-cover"
           alt="Sprise cube lg"
           src="../static/img/sprise-cube-lg@2x.png"
         />
         <a
-          className="=relative px-3 py-2 border border-solid border-lavender [background:none] [font-family:'Space_Grotesk',Helvetica] font-normal text-midnight hover:border-volt hover:text-volt text-[18px]"
+          className=" px-3 py-2 border border-solid border-lavender [background:none] [font-family:'Space_Grotesk',Helvetica] font-normal text-midnight hover:border-volt hover:text-volt text-[18px]"
           href="mailto:&#x73;&#x75;&#x70;&#x40;&#x73;&#x70;&#x72;&#x69;&#x73;&#x65;&#x2e;&#x63;&#x6f;"
         >
           &#x73;&#x75;&#x70;&#x40;&#x73;&#x70;&#x72;&#x69;&#x73;&#x65;&#x2e;&#x63;&#x6f;
@@ -24,7 +23,7 @@ export default function Home() {
 
       {/* Hero */}
       <div className="flex flex-col gap-8 md:gap-12 lg:gap-16 pt-8 lg:pt-12 pb-12 lg:pb-24 px-4 md:px-8 lg:px-16 xl:px-[6.5rem] relative max-w-screen-2xl w-full">
-        <h1 className="relative xl:max-w-[55.5rem] lg:max-w-[51.25rem] md:max-w-[44rem] w-full [font-family:'Fraunces',Helvetica] font-normal text-midnight xl:text-[8xl] xl:leading-[7rem] lg:text-[5.75rem] lg:leading-[6.75rem] md:text-[5rem] md:leading-[5.875rem] text-[2.5rem] leading-[3rem]">
+        <h1 className="xl:max-w-[55.5rem] lg:max-w-[51.25rem] md:max-w-[44rem] w-full [font-family:'Fraunces',Helvetica] font-normal text-midnight xl:text-[8xl] xl:leading-[7rem] lg:text-[5.75rem] lg:leading-[6.75rem] md:text-[5rem] md:leading-[5.875rem] text-[2.5rem] leading-[3rem]">
           <span className="font-bold italic">Sprise </span>
           <span className="font-light italic">is a software development agency and product studio.</span>
         </h1>
@@ -144,102 +143,119 @@ export default function Home() {
       <hr className="h-px bg-lavender border-0" />
 
       {/* Work */}
-      <div className="flex flex-col gap-6 md:gap-8 lg:gap-12 px-4 md:px-8 lg:px-16 xl:px-[6.5rem] py-12 lg:py-24 relative max-w-screen-2xl w-full">
-        <h2 className="relative w-fit [font-family:'Fraunces',Helvetica] font-light italic text-midnight text-[2.25rem] md:text-[4rem]">
+      <div className="flex flex-col gap-6 md:gap-8 lg:gap-12 px-4 md:px-8 lg:px-16 xl:px-[6.5rem] py-12 lg:py-24 max-w-screen-2xl w-full">
+        <h2 className="w-fit [font-family:'Fraunces',Helvetica] font-light italic text-midnight text-[2.25rem] md:text-[4rem]">
           We&#39;ve built…
         </h2>
 
         {/* Cards container */}
-        <div className="flex flex-col max-w-[67rem] gap-8 relative">
+        <div className="sm:grid sm:grid-cols-2 flex flex-col max-w-[67rem] sm:gap-8 gap-6">
           
-          {/* Cards row 1 */}
-          <div className="flex gap-8 relative w-full">
-            
-            <div className="flex flex-col gap-[12px] p-6 relative flex-1 grow border border-solid border-lavender">
-              <div className="flex justify-between relative w-full">
-                  <a href="https://pally.gg?ref=sprise" target="_blank">
-                    <h3 className="hover:after:content-['↗︎'] hover:after:ml-2 hover:text-dark-lavender [font-family:'Space_Grotesk',Helvetica] font-bold text-[#302556] text-[32px]">
-                      Pally.gg
-                    </h3>
-                  </a>
-                  
-                  <Label className="!flex-[0_0_auto]" />
+          {/* Pally */}
+          <div className="flex flex-col lg:gap-3 gap-2 p-6 border border-solid border-lavender">
+            <div className="flex justify-between lg:content-start content-center w-full">
+              <a href="https://pally.gg?ref=sprise" target="_blank">
+                <h3 className="hover:after:content-['↗︎'] hover:after:ml-2 hover:text-dark-lavender [font-family:'Space_Grotesk',Helvetica] font-bold text-midnight lg:text-[32px] text-2xl">
+                  Pally.gg
+                </h3>
+              </a>
+              {/* Label */}
+              <div className="relative h-min px-2 pt-0 pb-0.5 border border-solid border-lavender">
+                <img
+                className="absolute w-3 h-3 -left-0.5 -top-0.5"
+                  alt="Sprise spark"
+                  src="../static/img/sprise-spark-shear12.svg"
+                />
+                <span className="[font-family:'Space_Grotesk',Helvetica] font-medium text-purple text-xs">
+                  ACQUIRED
+                </span>
               </div>
-              <div className="inline-flex pt-0 pb-[8px] px-0 relative">
-                <div className="relative w-fit [font-family:'Space_Grotesk',Helvetica] font-normal text-purple text-[18px]">
-                  In-house product
-                </div>
-              </div>
-              <p className="relative [font-family:'Space_Grotesk',Helvetica] font-normal text-midnight text-[24px]">
-                A payments platform for streamers and moderators on Twitch to make money together by automatically
-                splitting audience tips.
-              </p>
             </div>
-            <div className="flex flex-col gap-[12px] p-6 relative flex-1 grow border border-solid border-lavender">
-              <div className="flex justify-between relative w-full">
-                <a href="https://www.clubcpg.com/w?ref=sprise" target="_blank">
-                  <h3 className="hover:after:content-['↗︎'] hover:after:ml-2 hover:text-dark-lavender [font-family:'Space_Grotesk',Helvetica] font-bold text-[#302556] text-[32px]">
-                    W by Club CPG
-                  </h3>
-                </a>
-                <Label className="!flex-[0_0_auto]" />
+            <p className="w-fit pb-2 [font-family:'Space_Grotesk',Helvetica] font-normal text-purple md:text-lg text-base">
+              In-house product
+            </p>
+            <p className="[font-family:'Space_Grotesk',Helvetica] font-normal text-midnight lg:text-2xl md:text-xl text-lg">
+              A payments platform for streamers and moderators on Twitch to make money together by automatically splitting audience tips.
+            </p>
+          </div>
+          
+          {/* CPG */}
+          <div className="flex flex-col lg:gap-3 gap-2 p-6 border border-solid border-lavender">
+            <div className="relative flex justify-between gap-2 w-full">
+              <a href="https://www.clubcpg.com/w?ref=sprise" target="_blank">
+                <h3 className="hover:after:content-['↗︎'] hover:after:ml-2 hover:text-dark-lavender [font-family:'Space_Grotesk',Helvetica] font-bold text-midnight lg:text-[32px] text-2xl">
+                  W by Club CPG
+                </h3>
+              </a>
+              {/* Label */}
+              <div className="relative h-min px-2 pt-0 pb-0.5 border border-solid border-lavender">
+                <img
+                className="absolute w-3 h-3 -left-0.5 -top-0.5"
+                  alt="Sprise spark"
+                  src="../static/img/sprise-spark-shear12.svg"
+                />
+                <span className="[font-family:'Space_Grotesk',Helvetica] font-medium text-purple text-xs">
+                  ACQUIRED
+                </span>
               </div>
-              <div className="inline-flex pt-0 pb-[8px] px-0 relative">
-                <div className="relative w-fit [font-family:'Space_Grotesk',Helvetica] font-normal text-purple text-[18px]">
-                  Web3 community product
-                </div>
-              </div>
-              <p className="relative [font-family:'Space_Grotesk',Helvetica] font-normal text-midnight text-[24px]">
-                A loyalty rewards platform for a community of builders, operators, and creatives in web3.
-              </p>
             </div>
+            <p className="w-fit pb-2 [font-family:'Space_Grotesk',Helvetica] font-normal text-purple md:text-lg text-base">
+              Web3 community product
+            </p>
+            <p className="[font-family:'Space_Grotesk',Helvetica] font-normal text-midnight lg:text-2xl md:text-xl text-lg">
+              A loyalty rewards platform for a community of builders, operators, and creatives in web3.
+            </p>
           </div>
 
-          {/* Cards row 2 */}
-          <div className="flex gap-8 relative w-full">
-            <div className="flex flex-col gap-[12px] p-6 relative flex-1 grow border border-solid border-lavender">
-              <div className="flex justify-between relative w-full">
-                <a href="https://mybff.com?ref=sprise" target="_blank">
-                  <h3 className="hover:after:content-['↗︎'] hover:after:ml-2 hover:text-dark-lavender [font-family:'Space_Grotesk',Helvetica] font-bold text-[#302556] text-[32px]">
-                    BFF
-                  </h3>
-                </a>
-                <Label className="!flex-[0_0_auto]" />
+          {/* BFF */}
+          <div className="flex flex-col basis-6/12 grow lg:gap-3 gap-2 p-6 border border-solid border-lavender">
+            <div className="flex justify-between w-full">
+              <a href="https://mybff.com?ref=sprise" target="_blank">
+                <h3 className="hover:after:content-['↗︎'] hover:after:ml-2 hover:text-dark-lavender [font-family:'Space_Grotesk',Helvetica] font-bold text-midnight lg:text-[32px] text-2xl">
+                  BFF
+                </h3>
+              </a>
+              {/* Label */}
+              <div className="relative h-min px-2 pt-0 pb-0.5 border border-solid border-lavender">
+                <img
+                className="absolute w-3 h-3 -left-0.5 -top-0.5"
+                  alt="Sprise spark"
+                  src="../static/img/sprise-spark-shear12.svg"
+                />
+                <span className="[font-family:'Space_Grotesk',Helvetica] font-medium text-purple text-xs">
+                  ACQUIRED
+                </span>
               </div>
-              <div className="inline-flex pt-0 pb-[8px] px-0 relative">
-                <div className="relative w-fit [font-family:'Space_Grotesk',Helvetica] font-normal text-purple text-[18px]">
-                  Website and NFT launch
-                </div>
-              </div>
-              <p className="relative [font-family:'Space_Grotesk',Helvetica] font-normal text-midnight text-[24px]">
-                An open-access community for women and non-binary people to get educated, connected, and empowered in
-                web3.
-              </p>
             </div>
-            <div className="flex flex-col gap-[12px] p-6 relative flex-1 grow border border-solid border-lavender">
-              <div className="flex gap-[12px] relative w-full">
-                <a href="https://afropolitan.io?ref=sprise" target="_blank">
-                  <h3 className="hover:after:content-['↗︎'] hover:after:ml-2 hover:text-dark-lavender [font-family:'Space_Grotesk',Helvetica] font-bold text-[#302556] text-[32px]">
-                    Afropolitan
-                  </h3>
-                </a>
-              </div>
-              <div className="inline-flex pt-0 pb-[8px] px-0 relative">
-                <div className="relative w-fit [font-family:'Space_Grotesk',Helvetica] font-normal text-purple text-[18px]">
-                  Website and NFT launch
-                </div>
-              </div>
-              <p className="relative [font-family:'Space_Grotesk',Helvetica] font-normal text-midnight text-[24px]">
-                A digital network state bringing together talent, culture, and capital for the African diaspora.
-              </p>
-            </div>
+            <p className="w-fit pb-2 [font-family:'Space_Grotesk',Helvetica] font-normal text-purple md:text-lg text-base">
+              Website and NFT launch
+            </p>
+            <p className="[font-family:'Space_Grotesk',Helvetica] font-normal text-midnight lg:text-2xl md:text-xl text-lg">
+              An open-access community for women and non-binary people to get educated, connected, and empowered in web3.
+            </p>
           </div>
+          
+          {/* Afropolitan */}
+          <div className="flex flex-col basis-6/12 grow lg:gap-3 gap-2 p-6 border border-solid border-lavender">
+            <div className="w-full">
+              <a href="https://afropolitan.io?ref=sprise" target="_blank">
+                <h3 className="hover:after:content-['↗︎'] hover:after:ml-2 hover:text-dark-lavender [font-family:'Space_Grotesk',Helvetica] font-bold text-midnight lg:text-[32px] text-2xl">
+                  Afropolitan
+                </h3>
+              </a>
+            </div>
+            <p className="w-fit pb-2 [font-family:'Space_Grotesk',Helvetica] font-normal text-purple md:text-lg text-base">
+              Website and NFT launch
+            </p>
+            <p className="[font-family:'Space_Grotesk',Helvetica] font-normal text-midnight lg:text-2xl md:text-xl text-lg">
+              A digital network state bringing together talent, culture, and capital for the African diaspora.
+            </p>
+          </div>
+
         </div>
 
-        <p className="relative [font-family:'Space_Grotesk',Helvetica] font-normal text-midnight text-[24px]">
-          <span className="[font-family:'Space_Grotesk',Helvetica] font-normal text-[#302556] text-[24px]">
-            Other clients we&#39;ve worked with include{" "}
-          </span>
+        <p className="[font-family:'Space_Grotesk',Helvetica] font-normal text-midnight lg:text-2xl md:text-xl text-lg">
+          Other clients we&#39;ve worked with include{" "}
           <a className="underline hover:text-dark-lavender" href="https://yestheory.com/?ref=sprise" target="_blank">
             Yes Theory
           </a>
@@ -254,8 +270,8 @@ export default function Home() {
       <hr className="h-px bg-lavender border-0" />
 
       {/* Contact */}
-      <div className="flex flex-col gap-6 md:gap-8 lg:gap-12 px-4 md:px-8 lg:px-16 xl:px-[6.5rem] py-12 lg:py-24 relative max-w-screen-2xl w-full">
-        <h2 className="relative w-fit [font-family:'Fraunces',Helvetica] font-light italic text-midnight text-[2.25rem] md:text-[4rem]">
+      <div className="flex flex-col gap-6 md:gap-8 lg:gap-12 px-4 md:px-8 lg:px-16 xl:px-[6.5rem] py-12 lg:py-24 max-w-screen-2xl w-full">
+        <h2 className="w-fit [font-family:'Fraunces',Helvetica] font-light italic text-midnight text-[2.25rem] md:text-[4rem]">
           Build with us
         </h2>
         <div className="flex flex-col xl:max-w-[44rem] lg:max-w-[41.75rem] md:max-w-[36.5rem] w-full sm:gap-6 gap-[1.125rem] [font-family:'Space_Grotesk',Helvetica] font-normal text-midnight text-lg sm:text-2xl">
@@ -275,26 +291,26 @@ export default function Home() {
       <hr className="h-px bg-lavender border-0" />
 
       {/* Team */}
-      <div className="flex flex-col gap-6 md:gap-8 lg:gap-12 px-4 md:px-8 lg:px-16 xl:px-[6.5rem] py-12 lg:py-24 relative max-w-screen-2xl w-full">
-        <h2 className="relative w-fit [font-family:'Fraunces',Helvetica] font-light italic text-midnight text-[2.25rem] md:text-[4rem]">
+      <div className="flex flex-col gap-6 md:gap-8 lg:gap-12 px-4 md:px-8 lg:px-16 xl:px-[6.5rem] py-12 lg:py-24 max-w-screen-2xl w-full">
+        <h2 className="w-fit [font-family:'Fraunces',Helvetica] font-light italic text-midnight text-[2.25rem] md:text-[4rem]">
           Who are we?
         </h2>
 
         {/* Container for team member cards */}
-        <div className="flex flex-wrap max-w-[44rem] gap-6 md:gap-8 relative">
+        <div className="flex flex-wrap max-w-[44rem] gap-6 md:gap-8">
           
-          <div className="flex flex-col min-w-[11rem] gap-3 p-4 md:p-6 relative flex-1 grow border border-solid border-lavender">
-            <img className="relative w-[4rem] md:w-[6rem] h-[4rem] md:h-[6rem] object-cover" alt="Montana" src="../static/img/montana.png" />
-            <div className="flex flex-col gap-[4px] relative w-full">
-              <h3 className="relative [font-family:'Space_Grotesk',Helvetica] font-bold text-midnight text-xl sm:text-2xl">
+          <div className="flex flex-col min-w-[11rem] gap-3 p-4 md:p-6 flex-1 grow border border-solid border-lavender">
+            <img className="w-[4rem] md:w-[6rem] h-[4rem] md:h-[6rem] object-cover" alt="Montana" src="../static/img/montana.png" />
+            <div className="flex flex-col gap-[4px] w-full">
+              <h3 className="[font-family:'Space_Grotesk',Helvetica] font-bold text-midnight text-xl sm:text-2xl">
                 Montana Wong
               </h3>
-              <p className="relative [font-family:'Space_Grotesk',Helvetica] font-normal text-midnight text-base md:text-lg">
+              <p className="[font-family:'Space_Grotesk',Helvetica] font-normal text-midnight text-base md:text-lg">
                 Co-founder, Engineering
               </p>
             </div>
             <a
-              className="relative [font-family:'Space_Grotesk',Helvetica] font-normal text-purple hover:text-dark-lavender text-base md:text-lg underline"
+              className="[font-family:'Space_Grotesk',Helvetica] font-normal text-purple hover:text-dark-lavender text-base md:text-lg underline"
               href="https://twitter.com/montana_wong"
               target="_blank"
             >
@@ -302,18 +318,18 @@ export default function Home() {
             </a>
           </div>
           
-          <div className="flex flex-col min-w-[11rem] gap-3 p-4 md:p-6 relative flex-1 grow border border-solid border-lavender">
-            <img className="relative w-[4rem] md:w-[6rem] h-[4rem] md:h-[6rem] object-cover" alt="Kevin" src="../static/img/kevin.png" />
-            <div className="flex flex-col gap-[4px] relative w-full">
-              <h3 className="relative [font-family:'Space_Grotesk',Helvetica] font-bold text-midnight text-xl sm:text-2xl">
+          <div className="flex flex-col min-w-[11rem] gap-3 p-4 md:p-6 flex-1 grow border border-solid border-lavender">
+            <img className="w-[4rem] md:w-[6rem] h-[4rem] md:h-[6rem] object-cover" alt="Kevin" src="../static/img/kevin.png" />
+            <div className="flex flex-col gap-[4px] w-full">
+              <h3 className="[font-family:'Space_Grotesk',Helvetica] font-bold text-midnight text-xl sm:text-2xl">
                 Kevin Boodtama
               </h3>
-              <p className="relative [font-family:'Space_Grotesk',Helvetica] font-normal text-midnight text-base md:text-lg">
+              <p className="[font-family:'Space_Grotesk',Helvetica] font-normal text-midnight text-base md:text-lg">
                 Co-founder, Design
               </p>
             </div>
             <a
-              className="relative [font-family:'Space_Grotesk',Helvetica] font-normal text-purple hover:text-dark-lavender text-base md:text-lg underline"
+              className="[font-family:'Space_Grotesk',Helvetica] font-normal text-purple hover:text-dark-lavender text-base md:text-lg underline"
               href="https://twitter.com/boodtama"
               target="_blank"
             >
