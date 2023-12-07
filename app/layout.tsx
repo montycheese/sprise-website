@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import Head from 'next/head'
 
 export const metadata: Metadata = {
   title: 'Sprise',
@@ -13,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-cover bg-fixed lg:bg-sprise-gradient-desktop bg-sprise-gradient-mobile">{children}</body>
     </html>
   )
 }
