@@ -23,7 +23,7 @@ export default function Home() {
 
       {/* Hero */}
       <div className="flex flex-col gap-8 md:gap-12 lg:gap-16 pt-8 lg:pt-12 pb-12 lg:pb-24 px-4 md:px-8 lg:px-16 xl:px-[6.5rem] relative max-w-screen-2xl w-full">
-        <h1 className="xl:max-w-[55.5rem] lg:max-w-[51.25rem] md:max-w-[44rem] w-full [font-family:'Fraunces',Helvetica] font-normal text-midnight xl:text-[8xl] xl:leading-[7rem] lg:text-[5.75rem] lg:leading-[6.75rem] md:text-[5rem] md:leading-[5.875rem] text-[2.5rem] leading-[3rem]">
+        <h1 className="xl:max-w-[55.5rem] lg:max-w-[51.25rem] md:max-w-[44rem] w-full [font-family:'Fraunces',Helvetica] font-normal text-midnight xl:text-[8xl] xl:leading-[7rem] lg:text-[5.75rem] lg:leading-[6.75rem] md:text-[5rem] md:leading-[5.875rem] text-4xl leading-[3rem]">
           <span className="font-bold italic">Sprise </span>
           <span className="font-light italic">is a software development agency and product studio.</span>
         </h1>
