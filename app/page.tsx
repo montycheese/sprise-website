@@ -172,7 +172,7 @@ export default function Home() {
               </div>
             </div>
             <p className="w-fit pb-2 [font-family:'Space_Grotesk',Helvetica] font-normal text-purple md:text-lg text-base">
-              In-house product
+              In-house product, sold on Aug, 2024
             </p>
             <p className="[font-family:'Space_Grotesk',Helvetica] font-normal text-midnight lg:text-2xl md:text-xl text-lg">
               A payments platform for streamers and moderators on Twitch to make money together by automatically splitting audience tips.
