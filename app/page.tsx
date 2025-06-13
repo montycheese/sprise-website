@@ -275,8 +275,7 @@ export default function Home() {
           Build with us
         </h2>
         <div className="flex flex-col xl:max-w-[44rem] lg:max-w-[41.75rem] md:max-w-[36.5rem] w-full sm:gap-6 gap-[1.125rem] [font-family:'Space_Grotesk',Helvetica] font-normal text-midnight text-lg sm:text-2xl">
-          <p>The future of work is changing. It&#39;s a departure from institutions.</p>
-          <p>Empowered individuals doing creative things can make a living on their own terms.</p>
+          <p>The future of work is changing. Empowered individuals doing creative things can make a living on their own terms.</p>
           <p>Working on an idea but don&#39;t know how to build it? Let&#39;s create something together. We&#39;ll make your ideas a reality.</p>
           <p>Shoot us an email:</p>
           <a
