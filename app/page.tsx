@@ -182,11 +182,9 @@ export default function Home() {
           {/* CPG */}
           <div className="flex flex-col lg:gap-3 gap-2 p-6 border border-solid border-lavender">
             <div className="relative flex justify-between gap-2 w-full">
-              <a href="https://www.clubcpg.com/w?ref=sprise" target="_blank">
-                <h3 className="hover:after:content-['↗︎'] hover:after:ml-2 hover:text-dark-lavender [font-family:'Space_Grotesk',Helvetica] font-bold text-midnight lg:text-[32px] text-2xl">
-                  W by Club CPG
-                </h3>
-              </a>
+              <h3 className="[font-family:'Space_Grotesk',Helvetica] font-bold text-midnight lg:text-[32px] text-2xl">
+                W by Club CPG
+              </h3>
               {/* Label */}
               <div className="relative h-min px-2 pt-0 pb-0.5 border border-solid border-lavender">
                 <img
@@ -210,11 +208,9 @@ export default function Home() {
           {/* BFF */}
           <div className="flex flex-col basis-6/12 grow lg:gap-3 gap-2 p-6 border border-solid border-lavender">
             <div className="flex justify-between w-full">
-              <a href="https://mybff.com?ref=sprise" target="_blank">
-                <h3 className="hover:after:content-['↗︎'] hover:after:ml-2 hover:text-dark-lavender [font-family:'Space_Grotesk',Helvetica] font-bold text-midnight lg:text-[32px] text-2xl">
-                  BFF
-                </h3>
-              </a>
+              <h3 className="[font-family:'Space_Grotesk',Helvetica] font-bold text-midnight lg:text-[32px] text-2xl">
+                BFF
+              </h3>
               {/* Label */}
               <div className="relative h-min px-2 pt-0 pb-0.5 border border-solid border-lavender">
                 <img
@@ -259,11 +255,7 @@ export default function Home() {
           <a className="underline hover:text-dark-lavender" href="https://yestheory.com/?ref=sprise" target="_blank">
             Yes Theory
           </a>
-          {" "}and{" "}
-          <a className="underline hover:text-dark-lavender" href="https://www.offbeat.xyz/?ref=sprise" target="_blank">
-            Offbeat
-          </a>
-          .
+          {" "}and Offbeat.
         </p>
       </div>
 
