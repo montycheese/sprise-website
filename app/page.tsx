@@ -19,7 +19,6 @@ export default function Home() {
           &#x73;&#x75;&#x70;&#x40;&#x73;&#x70;&#x72;&#x69;&#x73;&#x65;&#x2e;&#x63;&#x6f;
         </a>
       </div>
-      <hr className="h-px bg-lavender border-0" />
 
       {/* Hero */}
       <div className="flex flex-col gap-8 md:gap-12 lg:gap-16 pt-8 lg:pt-12 pb-12 lg:pb-24 px-4 md:px-8 lg:px-16 xl:px-[6.5rem] relative max-w-screen-2xl w-full">
@@ -140,8 +139,6 @@ export default function Home() {
       </div>
       */}
 
-      <hr className="h-px bg-lavender border-0" />
-
       {/* Work */}
       <div className="flex flex-col gap-6 md:gap-8 lg:gap-12 px-4 md:px-8 lg:px-16 xl:px-[6.5rem] py-12 lg:py-24 max-w-screen-2xl w-full">
         <h2 className="w-fit [font-family:'Fraunces',Helvetica] font-light italic text-midnight text-[2.25rem] md:text-[4rem]">
@@ -259,8 +256,6 @@ export default function Home() {
         </p>
       </div>
 
-      <hr className="h-px bg-lavender border-0" />
-
       {/* Contact */}
       <div className="flex flex-col gap-6 md:gap-8 lg:gap-12 px-4 md:px-8 lg:px-16 xl:px-[6.5rem] py-12 lg:py-24 max-w-screen-2xl w-full">
         <h2 className="w-fit [font-family:'Fraunces',Helvetica] font-light italic text-midnight text-[2.25rem] md:text-[4rem]">
@@ -278,8 +273,6 @@ export default function Home() {
           </a>
         </div>
       </div>
-
-      <hr className="h-px bg-lavender border-0" />
 
       {/* Team */}
       <div className="flex flex-col gap-6 md:gap-8 lg:gap-12 px-4 md:px-8 lg:px-16 xl:px-[6.5rem] py-12 lg:py-24 max-w-screen-2xl w-full">
