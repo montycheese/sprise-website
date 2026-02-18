@@ -21,7 +21,7 @@ export default function Home() {
       </div>
 
       {/* Hero */}
-      <div className="flex flex-col gap-8 md:gap-12 lg:gap-16 pt-8 lg:pt-12 pb-12 lg:pb-24 px-4 md:px-8 lg:px-16 xl:px-[6.5rem] relative max-w-screen-2xl w-full">
+      <div className="flex flex-col gap-8 md:gap-12 lg:gap-16 pt-5 lg:pt-8 pb-8 lg:pb-16 px-4 md:px-8 lg:px-16 xl:px-[6.5rem] relative max-w-screen-2xl w-full">
         <h1 className="xl:max-w-[55.5rem] lg:max-w-[51.25rem] md:max-w-[44rem] w-full [font-family:'Fraunces',Helvetica] font-normal text-midnight xl:text-[8xl] xl:leading-[7rem] lg:text-[5.75rem] lg:leading-[6.75rem] md:text-[5rem] md:leading-[5.875rem] text-4xl leading-[3rem]">
           <span className="font-bold italic">Sprise </span>
           <span className="font-light italic">is a software development agency and product studio.</span>
@@ -140,7 +140,7 @@ export default function Home() {
       */}
 
       {/* Work */}
-      <div className="flex flex-col gap-6 md:gap-8 lg:gap-12 px-4 md:px-8 lg:px-16 xl:px-[6.5rem] py-12 lg:py-24 max-w-screen-2xl w-full">
+      <div className="flex flex-col gap-6 md:gap-8 lg:gap-12 px-4 md:px-8 lg:px-16 xl:px-[6.5rem] py-8 lg:py-16 max-w-screen-2xl w-full">
         <h2 className="w-fit [font-family:'Fraunces',Helvetica] font-light italic text-midnight text-[2.25rem] md:text-[4rem]">
           We&#39;ve built…
         </h2>
@@ -257,7 +257,7 @@ export default function Home() {
       </div>
 
       {/* Contact */}
-      <div className="flex flex-col gap-6 md:gap-8 lg:gap-12 px-4 md:px-8 lg:px-16 xl:px-[6.5rem] py-12 lg:py-24 max-w-screen-2xl w-full">
+      <div className="flex flex-col gap-6 md:gap-8 lg:gap-12 px-4 md:px-8 lg:px-16 xl:px-[6.5rem] py-8 lg:py-16 max-w-screen-2xl w-full">
         <h2 className="w-fit [font-family:'Fraunces',Helvetica] font-light italic text-midnight text-[2.25rem] md:text-[4rem]">
           Build with us
         </h2>
@@ -275,7 +275,7 @@ export default function Home() {
       </div>
 
       {/* Team */}
-      <div className="flex flex-col gap-6 md:gap-8 lg:gap-12 px-4 md:px-8 lg:px-16 xl:px-[6.5rem] py-12 lg:py-24 max-w-screen-2xl w-full">
+      <div className="flex flex-col gap-6 md:gap-8 lg:gap-12 px-4 md:px-8 lg:px-16 xl:px-[6.5rem] py-8 lg:py-16 max-w-screen-2xl w-full">
         <h2 className="w-fit [font-family:'Fraunces',Helvetica] font-light italic text-midnight text-[2.25rem] md:text-[4rem]">
           Who are we?
         </h2>
